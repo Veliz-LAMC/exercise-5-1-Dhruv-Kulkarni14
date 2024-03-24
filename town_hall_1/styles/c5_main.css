@@ -26,6 +26,7 @@ a:focus, a:hover {
 header{
 	border-bottom: 3px solid #931420;
 	padding: 1.5em 0 2em;
+	 background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 header h2 {
 	font-size: 175%;
@@ -45,6 +46,7 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding: 0 30px;
 }
 main h1 {
 	border-top: 3px solid #931420;
@@ -86,4 +88,7 @@ footer p {
 	color: white;
 	text-align: center;
 	padding: 1em 0;
+}
+blockquote {
+  font-style: italic;
 }
