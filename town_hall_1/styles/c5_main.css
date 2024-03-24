@@ -20,6 +20,9 @@ a:focus, a:hover {
 	font-style: italic;
 }
 /* the styles for the header */
+header{
+	border-bottom: 3px solid #931420;
+}
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
@@ -41,6 +44,8 @@ main {
 	clear: left;
 }
 main h1 {
+	border-top: 3px solid #931420;
+        border-bottom: 3px solid #931420;
 	font-size: 150%;
 	padding: .3em 0;
 }
@@ -71,7 +76,11 @@ main li {
 }
 
 /* the styles for the footer */
+footer{
+	 background-color: #931420;
+}
 footer p {
+	color: white;
 	text-align: center;
 	padding: 1em 0;
 }
